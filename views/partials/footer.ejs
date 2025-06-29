@@ -1,0 +1,23 @@
+ <footer>
+    <h1><i>By Ardhaya</i></h1>
+      <p>&copy; <%= new Date().getFullYear() %> To-Do App. All rights reserved.</p>
+    </footer>
+  </div>
+  <script>
+    const toggle = document.getElementById("theme-toggle");
+    const body = document.body;
+
+    if (localStorage.getItem("theme") === "dark") {
+      body.classList.add("dark");
+      toggle.textContent = "☀️";
+    }
+
+    toggle.addEventListener("click", () => {
+      body.classList.toggle("dark");
+      const isDark = body.classList.contains("dark");
+      toggle.textContent = isDark ? "☀️" : "🌙";
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<%- include("partials/header.ejs") %>
+
+<form action="/add" method="POST" class="add-form">
+  <input type="text" name="task" placeholder="Add a new task" required>
+  <button type="submit">Add</button>
+</form>
+
+<ul class="task-list">
+  <% if (tasks.length === 0) { %>
+    <li class="empty">No tasks yet. Start by adding one above!</li>
+  <% } %>
+  <% tasks.forEach(task => { %>
+    <li class="<%= task.completed ? 'done' : '' %>">
+      <form action="/complete/<%= task._id %>" method="POST" style="display:inline;">
+        <button type="submit">✔</button>
+      </form>
+      <span class="task-content"><%= task.content %></span>
+      <form action="/delete/<%= task._id %>" method="POST" style="display:inline;">
+        <button type="submit">❌</button>
+      </form>
+    </li>
+  <% }) %>
+</ul>
+
+<%- include("partials/footer.ejs") %>
