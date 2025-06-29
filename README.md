@@ -64,7 +64,7 @@ Summon MongoDB:
 mongod
 
 Give it life:
-node index.js
+node app.js
 
 🧑‍🚀 Author
 Ardhaya.
