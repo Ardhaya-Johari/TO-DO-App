@@ -72,10 +72,11 @@ node app.js
 ```
 ## 🧑‍🚀 Author
 Ardhaya
+---
 
-##⭐ Your Next Task
+## ⭐ Your Next Task
 If this made you smile, made you learn, or made your life 1% easier:
 
-#⭐ Star the repo
-#🍴 Fork it and build your own dream
-#🧪 Hack it, remix it, and let it grow
+# ⭐ Star the repo
+# 🍴 Fork it and build your own dream
+# 🧪 Hack it, remix it, and let it grow
