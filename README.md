@@ -45,32 +45,37 @@ Built with ❤️ using:
 The logic is as simple as it is powerful.
 
 - **GET "/"** – Fetches all tasks from MongoDB and renders them in EJS:
-  -
+  
   app.get("/", async (req, res) => {
     const tasks = await Task.find();
     res.render("index", { tasks });
   });
 
 ## 🔧 How to Run It
-Clone it down:
-git clone https://github.com/your-username/todo-app.git
+### Clone it down:
+```bash
+git clone https://github.com/your-username/To-Do-App.git
 cd todo-app
-
+```
+### Install Dependencies
+```bash
 Install the soul:
 npm install
-
-Summon MongoDB:
+```
+### Summon MongoDB:
+```bash
 mongod
-
-Give it life:
+```
+###Give it life:
+```bash
 node app.js
-
+```
 ## 🧑‍🚀 Author
 Ardhaya
 
-## ⭐ Your Next Task
+##⭐ Your Next Task
 If this made you smile, made you learn, or made your life 1% easier:
 
-## ⭐ Star the repo
-## 🍴 Fork it and build your own dream
-## 🧪 Hack it, remix it, and let it grow
+#⭐ Star the repo
+#🍴 Fork it and build your own dream
+#🧪 Hack it, remix it, and let it grow
