@@ -70,8 +70,15 @@ mongod
 ```bash
 node app.js
 ```
-## 🧑‍🚀 Author
-Ardhaya
+## 👤 Creator
+
+**Ardhaya Johari**  
+🔗 [GitHub](https://github.com/Ardhaya-Johari)  
+📧 ardhayasaxena3897@gmail.com  
+💼 [LinkedIn](https://www.linkedin.com/in/ardhaya-johari-819275321/)
+
+Created with ❤️ by Ardhaya
+
 ---
 
 ## ⭐ Your Next Task
